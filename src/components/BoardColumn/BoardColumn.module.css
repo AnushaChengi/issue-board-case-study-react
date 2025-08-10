@@ -1,0 +1,22 @@
+.column {
+    flex: 1;
+    padding: 0.5rem;
+    min-height: 300px;
+    background-color: var(--color-bg-light);
+    border-radius: 8px;
+  }
+  
+  .columnTitle {
+    text-align: center;
+    font-size: var(--font-size-heading);
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .emptyText {
+    text-align: center;
+    color: var(--color-text-muted);
+    font-size: var(--font-size-sm);
+  }
+  
+  

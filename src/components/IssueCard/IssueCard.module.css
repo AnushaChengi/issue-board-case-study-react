@@ -1,0 +1,52 @@
+.card {
+  background-color: var(--color-bg-white);
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-light);
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text-primary);
+  cursor: pointer;
+}
+.cardGrad{
+    cursor: pointer;
+}
+.card-
+.card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.cardTitle {
+    font-weight: bold;
+    font-size: var(--font-size-base);
+    margin-bottom: var(--spacing-xs);
+}
+
+.cardTitleWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardMeta {
+  font-size: 0.85rem;
+  margin: 0.25rem 0;
+}
+
+.cardSubmeta {
+  font-size: 0.75rem;
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+.dragHandle {
+  cursor: grab;
+  float: right;
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 4px;
+  padding: 0.25rem;
+  user-select: none;
+}
+
+.dragHandle:active {
+  cursor: grabbing;
+}

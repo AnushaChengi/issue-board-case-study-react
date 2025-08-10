@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  padding: 1rem;
+  background-color: #282c34;
+  color: var(--color-bg-white);;
+}
+
+.body {
+  display: flex;
+  flex: 1;
+  padding: 1rem 1rem 1rem 0;
+  gap: 1.5rem;
+}
+
+.main {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.sidebar {
+  background-color: var(--color-bg-light);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: var(--shadow-light);
+}

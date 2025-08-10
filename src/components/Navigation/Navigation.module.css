@@ -1,0 +1,9 @@
+.navigation{
+    background-color: var(--navigation-color);
+     padding: 1rem
+}
+
+.nagivationItem{
+    margin-right: 1rem;
+    color: var(--color-primary)
+}
